@@ -70,8 +70,8 @@ body {
 }
 
 .card:hover {
-    transform: translateY(-5px);
-    background: #ffffff26;
+    transform: scale(1.05);
+    background: grey;
 }
 
 a {
@@ -103,10 +103,23 @@ a {
     .typewriter {
         font-size: 2rem;
     }
+
+    body {
+        background: linear-gradient(135deg, #1e1e2f, #121212);
+        color: #ffffff;
+        line-height: 1.6;
+        padding: 1.3rem;
+    }
 }
 
 @media (max-width: 480px) {
     .typewriter {
         font-size: 1.8rem;
+    }
+    body {
+        background: linear-gradient(135deg, #1e1e2f, #121212);
+        color: #ffffff;
+        line-height: 1.6;
+        padding: 1.3rem;
     }
 }
