@@ -94,7 +94,7 @@ a {
 
 .project-image {
     width: 100%;
-    height: 60px;
+    height: 120px;
     object-fit: cover;
     border-radius: 12px; /* <- más redondeado */
     margin-bottom: 1rem;
