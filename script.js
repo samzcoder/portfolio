@@ -12,3 +12,7 @@ document.querySelectorAll('.card').forEach(card => {
   document.querySelectorAll('.contact').forEach(card => {
     card.addEventListener('touchstart', () => {}, { passive: true });
   });
+
+  document.querySelectorAll('.skills').forEach(card => {
+    card.addEventListener('touchstart', () => {}, { passive: true });
+  });
